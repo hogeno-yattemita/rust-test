@@ -1,6 +1,9 @@
 fn main(){
     println!("Hello, world!");  
-    let i = flatten(vec![vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]].into_iter());
+    let i = flatten(vec![vec![1, 2, 3], vec![4, 5, 6], vec![7, 8, 9]]);
+    for x in i {
+        println!("{}", x);
+    }
     // for i in i {
     //     println!("{}", i);
     // }
